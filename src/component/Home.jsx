@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import './Home.css';
 import {useSelector} from 'react-redux';
 import {useDispatch} from 'react-redux';
-import {updateData,deleteData} from '../component/actions/index';
+import {updateData,deleteData} from '../actions/index';
 import Edit from './Edit';
 
 

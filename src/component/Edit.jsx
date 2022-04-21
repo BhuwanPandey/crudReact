@@ -4,7 +4,7 @@ import React from 'react'
 function Edit(props) {
   return (
     <>
-        Edit Section continue..
+        <div>Edit Section continue..</div>
     </>
   )
 }

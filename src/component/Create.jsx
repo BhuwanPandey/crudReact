@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import './Create.css';
 
 import {useDispatch} from 'react-redux';
-import {createData} from '../component/actions/index';
+import {createData} from '../actions/index';
 
 function Create() {
 

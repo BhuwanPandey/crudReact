@@ -15,7 +15,7 @@ function Fetchdata() {
 
   return (
     <>
-      {!data?"loading":
+      {!data?<div style={{"textAlign":"center"}}>Loading...</div>:
       <table>
       <thead>
         <tr>
