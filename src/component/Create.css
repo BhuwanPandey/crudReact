@@ -1,0 +1,70 @@
+
+
+.createContainer{
+    margin-top:20px;
+    border: 1px solid #BFBFBF;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 5px;
+    height:500px;
+    padding:10px 0;
+}
+.createSubcontainer{
+    padding-top:20px;
+    width: 50%;
+    margin:auto;
+}
+
+.title{
+    text-align: center;
+}
+
+.elementContainer{
+    margin-bottom:15px;
+    width:100%;
+}
+
+.elementContainer label{
+    margin-right:10px;
+    font-size: 18px;
+}
+.elementContainer input[type=text], select {
+    width: 75%;
+    padding: 8px 10px;
+    margin: 4px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.elementContainer input[type=text]{
+    width: 75%;
+    padding: 8px 10px;
+    margin: 4px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+.elementContainer input[type=text]:focus,.elementContainer input[type=text],select:focus{
+    outline:none;
+}
+
+.elementContainer button{
+    margin:0 5px;
+    font-size: 15px;
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.createtable{
+    background-color:rgb(62, 62, 230);
+    color:white;
+}
+.canceltable{
+    background-color:rgba(255,0,0,0.7);
+    color:white;
+}
+.createtable:hover{
+    background-color:rgba(62, 62, 230,0.9);
+}
+.canceltable:hover{
+    background-color:rgba(255,0,0,0.6);
+}

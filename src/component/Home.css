@@ -1,0 +1,35 @@
+
+table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+background-color: #dddddd;
+}
+
+.removebtn{
+    background-color:rgba(255,0,0,0.7);
+    color:white;
+    margin:0 5px;
+    font-size: 15px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.editbtn{
+    background-color:rgba(229, 255, 0, 0.7);
+    color:white;
+    margin:0 5px;
+    font-size: 15px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
